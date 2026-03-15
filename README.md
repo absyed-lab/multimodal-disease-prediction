@@ -205,22 +205,6 @@ For development and testing, we generate **realistic synthetic patient data**:
 
 ---
 
-## 🔬 Experiments
-
-### Research Questions
-
-1. **RQ1:** Does multimodal fusion improve accuracy over single modality?
-   - **Answer:** Yes! +8.8% over text-only, +11.1% over structured-only
-
-2. **RQ2:** Which fusion strategy works best?
-   - **Answer:** Cross-modal attention >> simple concatenation (+3.2%)
-
-3. **RQ3:** Can model explain predictions interpretably?
-   - **Answer:** Yes! Attention matches clinician judgment 80%+ of time
-
-4. **RQ4:** Does confidence scoring prevent unsafe predictions?
-   - **Answer:** Yes! 95%+ accuracy in flagging uncertain cases
-
 ### Baselines Compared
 
 1. **Text-Only:** BioClinicalBERT (medical BERT)
@@ -368,27 +352,6 @@ RECOMMENDATION: ✓ High confidence - but always consult doctor
 
 ---
 
-## 📝 Publication Strategy
-
-### Target Conferences
-
-**Primary:**
-- **NCUR 2027** (National Conference on Undergraduate Research)
-  - Deadline: December 2026
-  - Acceptance: 60-80%
-  - Format: Abstract (200-300 words)
-
-**Stretch:**
-- **NeurIPS 2026 Workshop on Healthcare ML**
-  - Deadline: ~August 2026
-  - Acceptance: 40-50%
-  - Format: 4-page paper
-
-**Alternative:**
-- **ICLR 2027 Tiny Papers Track**
-  - Deadline: September 2026
-  - Acceptance: 35-45%
-  - Format: 5-page paper
 
 ### Paper Outline
 
@@ -541,5 +504,3 @@ This project is licensed under the MIT License - see LICENSE file for details.
 
 ---
 
-**Last Updated:** March 2026  
-**Status:** ✅ Ready for Publication Submission
