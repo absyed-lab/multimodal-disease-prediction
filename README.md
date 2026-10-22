@@ -36,6 +36,8 @@ python demo.py            # predictions with attention-based explanations
 
 Training uses batch size 16, 15 epochs, Adam (lr 1e-4) and ReduceLROnPlateau.
 
+The first run downloads BioClinicalBERT from Hugging Face, so you need internet access once. A GPU is recommended for training.
+
 ## Limitations
 
 - Synthetic data only. The symptom text comes from templates, so the task is much easier than real clinical notes.
@@ -51,6 +53,10 @@ Training uses batch size 16, 15 epochs, Adam (lr 1e-4) and ReduceLROnPlateau.
 ## Disclaimer
 
 Research prototype, not a medical device, and not for diagnosis.
+
+## License
+
+MIT
 
 ## Author
 
